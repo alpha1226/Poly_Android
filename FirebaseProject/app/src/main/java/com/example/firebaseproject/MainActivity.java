@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private GoogleSignInClient mGoogleSignInClient;
     private FirebaseAuth mAuth;
     private static final int RC_SIGN_IN = 10;
-    private static final String DWCI = "";//"368423380512-0l1edo6rgrq726bcm6ha8ff3d9a0afh8.apps.googleusercontent.com";
+    private static final String DWCI = "368423380512-0l1edo6rgrq726bcm6ha8ff3d9a0afh8.apps.googleusercontent.com";//"368423380512-0l1edo6rgrq726bcm6ha8ff3d9a0afh8.apps.googleusercontent.com";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestIdToken(DWCI)
                 .requestEmail()
                 .build();
         // [END config_signin]
