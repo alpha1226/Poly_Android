@@ -2,5 +2,5 @@
   
 2019.03.04 ~ 2019.06.10  
   
-Android Study In Polytech_Incheon
+Android Study In Polytech_Incheon  
 Naver BoostCourse(Android) 강의 실습 과제 포함
